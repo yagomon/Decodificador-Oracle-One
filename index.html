@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="Codificador e decodificador de texto. Projeto proposto pela ONE (Oracle Next Education) realizado com o objetivo de aprimorar meus conhecimentos em lógica de programação, HTML, CSS e JavaScript."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="./script.js" defer></script>
+
+    <title>Codificador de Textos</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logoAlura.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body class="col">
+    <header>
+      <a href="index.html" title="Home">
+        <img src="./assets/images/logoAlura.png" alt="Logo da Alura." />
+      </a>
+    </header>
+
+    <div class="row container">
+      <main id="main-bloco" class="form">
+        <textarea
+          class="user-text"
+          cols="40"
+          rows="9"
+          placeholder="Digite seu texto..."
+        ></textarea>
+
+        <div class="info row">
+          <object
+            data="./assets/images/info-icon.svg"
+            width="16px"
+            height="16px"
+          ></object>
+          <p class="text-info">Apenas letras minúsculas e sem acento.</p>
+        </div>
+
+        <div class="btns row">
+          <button type="button" class="btn btn-code">Criptografar</button>
+
+          <button type="button" class="btn btn-decode">Descriptografar</button>
+        </div>
+      </main>
+
+      <aside class="aside">
+        <div class="aside-container col">
+          <object
+            class="img"
+            data="./assets/images/High quality products 1 1.svg"
+            
+          ></object>
+          <p class="no-message">Nenhuma mensagem encontrada</p>
+          <p class="no-message-sub">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+      </aside>
+    </div>
+    <footer class="row">
+      <p>
+        Powered by
+        <a
+          href="https://www.linkedin.com/in/yagomonteiro/overlay/contact-info/"
+          target="_blank"
+          >Yago Monteiro</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

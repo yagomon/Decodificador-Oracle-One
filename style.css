@@ -1,0 +1,352 @@
+/* configurações gerais */
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  min-height:100vh ;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#F3F5FC 40%, #e7e8ef 65%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Mostrar/Esconder Sidebar */
+.nocontent{
+  visibility: hidden;
+}
+
+/* Cabeçalho e nav-bar */
+header {
+  padding: 40px 0 0 84px;
+}
+
+/* Seção de entrada de dados do decodificador*/
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+main.form{
+  height: 100%;
+  padding: 80px 80px 72px 15rem;
+}
+
+textarea.user-text, textarea.user-text::placeholder, textarea.user-text:focus{
+  background-color: transparent;
+  max-width: 680px;
+  max-height: 635px;
+  border: none;
+  font-size: 32px;
+  font-weight:400;
+  line-height: 48px;
+  outline: none;
+  color: #0A3871;
+  resize: none;
+}
+
+textarea.user-text:focus::placeholder{
+  visibility: hidden;
+}
+
+div.info{
+  gap:8px;
+  padding-top: 5rem;
+}
+
+.text-info{
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+padding-bottom: 16px;
+}
+
+div.btns{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 24px;
+}
+
+.btn{
+height: 67px;
+width: 328px;
+padding: 24px;
+
+border: solid 1px;
+border-radius: 24px;
+border-color: #0A3871;
+color: #0A3871;
+background-color: white;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+transition:.5s ease;
+cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #e3eaf3;
+  color: #0A3871;
+  transform: scale(0.94);
+}
+
+.btn-code{
+color: white;
+background-color: #0A3871;
+}
+
+.btn-decode{
+  background-color: #D8DFE8;
+}
+
+
+/* Seção lateral, Saída dos dados Codificados */
+.aside{
+width: 440px;
+height: 100%;
+}
+
+.aside-container{
+  background-color: white;
+  width: 400px;
+  height: 87.5%;
+  align-items: center;
+  position: absolute;
+  top: 40px;
+  left: clamp(1050px, 68%, calc(68% - 90px));
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+.img{
+width: 336px;
+height: 304px;
+margin: 200px 34px 34px;
+}
+
+p.no-message{
+  width: 336px;
+  height: 58px;
+
+  color: #343A40;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+}
+
+p.no-message-sub{
+  width: 336px;
+  height: 48px;
+  margin-top: 16px;
+  
+  color: #495057;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 150%;
+}
+
+textarea.text-result{
+  width: 100%;
+  height: 100%;
+  padding: 32px;
+
+  outline: none;
+  border: none;
+  resize: none;
+  background-color: transparent;
+  color: #495057;
+  ; 
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.btn-copy{
+  margin-bottom: 56px;
+}
+
+
+/* Rodapé */
+footer{
+  align-items: center;
+  justify-content: center;
+  background-color: #0A3871 ;
+  min-height:25px;
+  color: #D8DFE8;
+  font-size: 15px;
+  margin-top: 4rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+a{
+  color: #D8DFE8;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* Tablets Version */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+  header {
+    padding: 40px 0 0 73.42px;
+  }
+
+  div.container{
+    flex-direction: column;
+    height: 100%;
+  }
+
+  main.form {
+    padding: 80px 0px 72px 0px;
+    margin: 0 auto;
+  }
+
+  textarea.user-text, textarea.user-text::placeholder, textarea.user-text:focus{
+    max-height: 36vh;
+  }
+
+  aside.aside{
+    width: 688px;
+    margin: 0 auto;
+  }
+  div.aside-container{
+    position: static ;
+    width: 688px;
+    padding: 32px;
+  }
+
+  .img{
+    display: none;
+  }
+
+  p.no-message{
+    width: 624px;
+    height: 29px;
+  }
+
+  p.no-message-sub{
+    width: 624px;
+    height: 24px;
+  }
+
+  .screen-copy{
+    min-height: 343px;
+    gap: 32px;
+  }
+
+  .btn-copy{
+    width: 100%;
+    margin:0;
+  }
+
+  textarea.text-result{
+    padding: 0;
+    min-height: 180px;
+  }
+
+  footer{
+    position: static
+  }
+}
+
+/* Smartphones Version */
+@media screen and (max-width: 767px){
+
+  header {
+    padding: 24px 0 0 16px;
+  }
+
+  div.container{
+    flex-direction: column;
+    height: 100%;
+  }
+
+  main.form {
+    padding: 30px 16px 50px 16px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  textarea.user-text, textarea.user-text::placeholder, textarea.user-text:focus{
+    max-height: 19vh;
+    width: 100%;
+  }
+
+  div.btns{
+    display: flex;
+    flex-direction: column;
+  }
+
+  aside.aside{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 24px;
+
+  }
+  div.aside-container{
+    position: static ;
+    padding: 32px;
+  }
+
+  .img{
+    display: none;
+  }
+
+  p.no-message{
+    width: 263px;
+    height: 58px;
+  }
+
+  p.no-message-sub{
+    width: 263px;
+    height: 48px;
+  }
+
+  .screen-copy{
+    min-height: 343px;
+    gap: 32px;
+  }
+
+  .btn-copy{
+    width: 100%;
+    margin:0;
+  }
+
+  textarea.text-result{
+    padding: 0;
+    min-height: 180px;
+  }
+
+  footer{
+    position: static;
+    margin-top: 3.5rem;
+  }
+}
+/* Smartphones Version */
