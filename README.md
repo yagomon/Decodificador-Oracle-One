@@ -3,7 +3,7 @@
 Projeto de estudo desenvolvido como resposta ao Alura Challenge, desafio  proposto no curso de desenvolvimento web do programa ONE (Oracle Next Education).  Para a realização do projeto foram disponibilizados um protótipo no figma e um modelo kanban no trello para melhor identificação das etapas realizadas durante o processo de desenvolvimento.
 
 **Link para vizualizar o  projeto:**
-[https://yagomon.github.io/Decodificador-Oracle-One/   ](https://yagomonteiroo.github.io/Decodificador-Oracle-One/)          
+[https://yagomonteiroo.github.io/Decodificador-Oracle-One](https://yagomonteiroo.github.io/Decodificador-Oracle-One/)          
                     
 ## ⚙️Pré-requisitos
 
