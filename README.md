@@ -1,6 +1,6 @@
 <h1 align="center"><img  src="https://pbs.twimg.com/profile_images/1597421774676828165/m-BUQtop_400x400.jpg" alt="Minha Figura" width="28px"> Projeto Decodificador <img  src="https://pbs.twimg.com/profile_images/1597421774676828165/m-BUQtop_400x400.jpg" alt="Minha Figura" width="28px"></h1>
 
-Projeto de estudo desenvolvido como resposta ao Alura Challenge, desafio  proposto no curso de desenvolvimento web do programa ONE (Oracle Next Education).  Para a realização do projeto foram disponibilizados um protótipo de no figma e um modelo kanban o trello para melhor identificação das etapas realizadas durante o processo de desenvolvimento.
+Projeto de estudo desenvolvido como resposta ao Alura Challenge, desafio  proposto no curso de desenvolvimento web do programa ONE (Oracle Next Education).  Para a realização do projeto foram disponibilizados um protótipo no figma e um modelo kanban o trello para melhor identificação das etapas realizadas durante o processo de desenvolvimento.
 
 **Link para vizualizar o  projeto:**
 https://yagomon.github.io/Decodificador-Oracle-One/             
