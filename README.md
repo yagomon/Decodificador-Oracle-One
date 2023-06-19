@@ -43,9 +43,9 @@ Principais conceitos e ferramentas:
 	    	git clone https://github.com/yagomon/Decodificador-Oracle-One.git```
 ## Autor
 
-**Desenvolvido por : Yago Monteiro**
-GitHub: https://github.com/yagomon
-Linkedin: https://www.linkedin.com/in/yagomonteiro/
+**Desenvolvido por : Yago Monteiro**<br>
+**GitHub**: https://github.com/yagomon<br>
+**Linkedin**: https://www.linkedin.com/in/yagomonteiro/
 
 MIT License
 Copyright (c) 2023 Yago Monteiro
